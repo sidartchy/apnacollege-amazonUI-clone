@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Amazon</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <!-- amazon logo -->
+        <div class="amazon-logo border">
+            <img src="images/amazon_logo.png" alt="amazonlogo">
+        </div>
+        <!-- Delivery Icon and Country -->
+        <div class="nav delivery-address border">
+                <p class="deliver-to">Deliver to</p>
+                <div class="nav-icon-country">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="country-name"><strong>Nepal</strong></p>
+                </div>
+        </div>
+        <!-- Search Box -->
+        <div class="search-box">
+                <div class="dropdown">
+                    <select name="All" class="dropdown-button">
+                        <option value="all">All</option>
+                    </select>  
+                </div>
+                <input type="search" name="nav-search-box" class="nav-search-input" placeholder="Search amazon">
+                <div class="nav-search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+        </div>
+        <!-- Sign in , Return and Order-->
+        <div class="nav-sign-in border">
+            <span class="sign-in">Hello, sign in</span>
+            <p class="nav-second">Account & Lists</p>
+        </div>
+        <div class="nav-ret-orders border">
+            <span class="returns">Returns</span>
+            <p class="nav-second">& Orders</p>
+        </div>
+        <!-- CartIcon -->
+        <div class="nav-cart border">
+            <div id="cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <p class="nav-second">Cart</p>
+        </div>
+
+    </div>
+</body>
+</html>
