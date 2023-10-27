@@ -100,3 +100,152 @@ span{
 #cart-icon{
     font-size: 25px;
 }
+/* Panel */
+.panel{
+    background-color: #232f3e;
+    color: white;
+    height: 40px;
+    display: flex; 
+    align-items: center;
+}
+.panel-list{
+    display: flex;
+    list-style-type: none;
+
+}
+.panel-drawer{
+    display: flex;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0 10px 0 15px ; 
+    gap: 2px ;
+}
+.panel-li{
+    font-size: 0.85rem; 
+    margin-right: 15px;
+}
+
+/* content-area */
+.content{
+    background-color: #e3e6e6;
+}
+.hero{ 
+    background-image: linear-gradient(to top, #e3e6e6, rgba(238, 232, 236, 0)), url("images/hero_image3.jpg");
+    height: 650px;
+    width: 80%;
+    background-size: cover;
+    position: relative;
+    left: 12em;
+}
+
+.card-container{
+    width: 80%;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    left: 13rem;
+    transform: translateY(-26em);
+}
+
+
+.cards{
+    width: 22rem; 
+    background-color: white;
+    height:25rem;
+    margin: 15px 10px 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-title{
+    color: black;
+    width: 90%;
+    text-align: left;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.card-img{   
+    height: 80%; 
+    width: 90%;
+    background-size: cover; 
+}
+.card-bottom-text{
+    width: 90%;
+    text-align: start;
+}
+.card-bottom-text a {
+    text-decoration: none;
+    color: black;
+    font-size: .85rem;
+}
+
+/* Footer area */
+.back-to-top{
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-size: .9rem  ;
+}
+.footer-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #232f3e;
+    color: white;
+    height: 400px;
+
+}
+table{
+    margin: 20px;
+}
+
+th{
+    font-size: 1.1rem;
+}
+th, td{
+    text-align: left;
+    width: 250px;
+    line-height: 20px;
+}
+td{
+    
+    font-size: .85rem;
+}
+.footer-head{
+    text-transform: capitalize;
+}
+.divider{
+    width: 100%;
+    height: .5px;
+    background-color: #3a4553;
+}
+.footer-logo{
+    height: 80px;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-icon{
+    background-image: url("images/amazon_logo.png");
+    width: 100px; 
+    height: 60px;
+    background-size: cover;
+}
+.copyright-section{
+    background-color: #131a22;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright-content > a , p{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
